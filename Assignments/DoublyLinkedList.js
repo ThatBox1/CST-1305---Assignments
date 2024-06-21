@@ -254,7 +254,7 @@ class DoublyLinkedList {
             return true;
         }
 
-        // iterating through the list from to find nth node
+        // iterating through the list to find nth node
         let current = this.tail;
         for (let i = 0; i < nth - 1; i++) {
             current = current.prev;
